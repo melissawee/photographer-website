@@ -1,10 +1,10 @@
 :root {
-  --ground: #EDE8DF;
-  --ink: #2A2521;
-  --ink-soft: #4F473F;
-  --muted: #6B6259;
-  --rule: #D3C9BA;
-  --accent: #8A5A3C;
+  --ground: #FFD23F;
+  --ink: #1B1464;
+  --ink-soft: #2B2380;
+  --muted: #3D3395;
+  --rule: rgba(27, 20, 100, 0.3);
+  --accent: #D90F55;
   --pad-x: clamp(24px, 7vw, 112px);
   --heading: 'Fraunces', Georgia, serif;
 }
@@ -73,14 +73,14 @@ p { margin: 0; color: var(--ink-soft); }
   min-height: 52px;
   padding: 0 36px;
   border-radius: 999px;
-  background: var(--ink);
-  color: #F5F1EA;
+  background: var(--accent);
+  color: #FFFFFF;
   font-size: 17px;
   font-weight: 500;
   text-decoration: none;
 }
 
-.cta:hover { background: #4A3F36; }
+.cta:hover { background: #A80B41; }
 
 .cta:focus-visible,
 .mail:focus-visible {
@@ -165,7 +165,7 @@ figcaption {
   word-break: break-word;
 }
 
-.mail:hover { color: var(--accent); }
+.mail:hover { color: #A80B41; }
 
 .footer {
   margin-top: 120px;

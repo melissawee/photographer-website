@@ -10,6 +10,16 @@ Open `index.html` in a browser, or serve the folder:
 python3 -m http.server 8000
 ```
 
+## Deploy to Vercel
+
+This is a static site, so there is no build step. `vercel.json` already sets the output directory and caching headers.
+
+1. In Vercel, choose **Add New → Project** and import this GitHub repo.
+2. Leave the framework preset as **Other** and the build and install commands empty.
+3. Click **Deploy**. Every push to `main` redeploys automatically.
+
+Or from the command line: `npx vercel --prod`.
+
 ## Edit it
 
 - **Photos:** put images in `images/` and replace a `<div class="ph">` in `index.html` with an `<img>`. Keep them 4:5 portrait so the grid stays even.
